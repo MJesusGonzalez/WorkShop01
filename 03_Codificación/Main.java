@@ -2,7 +2,8 @@ import java.util.*;
 public class Main {
     static int ladoIzq[] = { 1, 1, 1, 1 };
     static int ladoDer[] = { 0, 0, 0, 0 };
-    static String personajes[] = { "caballero", "caperucita", "lobo", "uvas" };
+    static String personajes[] = { "caballero ", "caperucita", "lobo      ", "uvas      " };
+    static String vacio[]={"          ","          ","          ","          "};
     public static int eleccionPersonajes() {// metodo para ingresar un numero
         Scanner sc = new Scanner(System.in);
         int opc = -1;
@@ -11,7 +12,7 @@ public class Main {
             System.out.println(i + " " + personajes[i]);
         do {
             try {
-                System.out.print("\n Digita el numero para que se suba al bote: ");
+                System.out.print("\nDigita el numero del peronaje para que viaje en el bote con el caballero: ");
                 opc = Integer.parseInt(sc.next());
             } catch (Exception e) {
                 System.out.println("valor no numerico");
@@ -63,6 +64,7 @@ public class Main {
             System.exit(0);
         }        
         if (Arrays.equals(ladoDer, caso4)) {
+            imprimir();
             System.out.println("Gano!!!!");
             System.exit(0);
         }        
@@ -70,10 +72,12 @@ public class Main {
     public static void imprimir() {
         System.out.println("");
         for (int i = 0; i < ladoIzq.length; i++) 
-            System.out.println(ladoIzq[i]+"  |  "+ladoDer[i]);
+            System.out.println(((ladoIzq[i]==1)? personajes[i]:vacio[i]) + "|" + ((ladoDer[i]==1)? personajes[i]:vacio[i]));
         System.out.println("");
     }
     public static void main(String[] args) {
+        System.out.println("Bienvenido");
+        System.out.println("Recuerde que el caballero siempre está en el bote y solo puede llevar a alguien desde su posición");
         do {
             navegar();
         } while (true);
