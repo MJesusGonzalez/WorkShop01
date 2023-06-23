@@ -22,12 +22,24 @@ public class Main {
     public static void navegar() { // metodo para navegar en el bote con el caballero
         int indice = eleccionPersonajes();
         if (ladoDer[indice] == 1 ) {
-            ladoIzq[indice] = ladoIzq[0] = 1;
-            ladoDer[indice] = ladoDer[0] = 0;
+            if(indice==0){
+                ladoDer[indice] = ladoDer[0] = 0;
+                ladoIzq[indice] = ladoIzq[0] = 1;
+            }
+            if(ladoDer[indice]==1 && ladoDer[0]==1){
+                ladoDer[indice] = ladoDer[0] = 0;
+                ladoIzq[indice] = ladoIzq[0] = 1;
+            }
             verificarReglas();
         } else if (ladoIzq[indice] == 1 ) {
-            ladoDer[indice] = ladoDer[0] = 1;
-            ladoIzq[indice] = ladoIzq[0] = 0;
+            if(indice==1){
+                ladoDer[indice] = ladoDer[0] = 1;
+                ladoIzq[indice] = ladoIzq[0] = 0;
+            }
+            if(ladoDer[indice]==0 && ladoDer[0]==0){
+                ladoDer[indice] = ladoDer[0] = 1;
+                ladoIzq[indice] = ladoIzq[0] = 0;
+            }
             verificarReglas();
         }
         imprimir();
