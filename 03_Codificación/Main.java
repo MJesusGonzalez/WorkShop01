@@ -52,15 +52,15 @@ public class Main {
         int caso3[] = { 0, 1, 1, 0 };
         int caso4[] = { 1, 1, 1, 1 };
         if (Arrays.equals(ladoIzq, caso1) || Arrays.equals(ladoDer, caso1)) {
-            System.out.println("el lobo se comio a caperusita || caperusita se comio a las uvas ");
+            System.out.println("el lobo se comio a caperusita || caperusita se comio a las uvas\nHAZ PERDIDO\n");
             System.exit(0);
         }
         if (Arrays.equals(ladoIzq, caso2) || Arrays.equals(ladoDer, caso2)) {
-            System.out.println("Caperusita se comio a las uvas");
+            System.out.println("Caperusita se comio a las uvas\nHAZ PERDIDO\n");
             System.exit(0);
         }
         if (Arrays.equals(ladoIzq, caso3) || Arrays.equals(ladoDer, caso3)) {
-            System.out.println("el lobo se comio a caperusita");
+            System.out.println("el lobo se comio a caperusita\nHAZ PERDIDO\n");
             System.exit(0);
         }        
         if (Arrays.equals(ladoDer, caso4)) {
