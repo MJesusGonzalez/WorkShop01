@@ -1,0 +1,49 @@
+<mxfile host="65bd71144e">
+    <diagram id="nnQrtxlSm0PfFJTszCwV" name="Página-1">
+        <mxGraphModel dx="746" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="50" width="690" height="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Historia De Usuario&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="50" width="690" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Número 001" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Nombre: Resolución del problema de cruzar el río.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="110" width="570" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Usuario: Cliente" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="170" width="690" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Modificación de Historia Número" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="230" width="340" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Iteración Asignada: 2" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="230" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Prioridad en Negocio: Alta" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="290" width="340" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Puntos Estimados:&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="290" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Riesgo en Desarrollo:&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="350" width="340" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Puntos Reales" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="350" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Observaciones:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="490" width="690" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Descripción:&amp;nbsp;Deseo un programa que pueda resolver el puzzle de cruzar el rio. Este puzzle corresponde a: en una orilla del rio se encuentran: un observador, un lobo, caperucita roja y unas uvas. Para cruzar el rio tienen una barca donde solamente pueden pasar dos personas. Por los tipos de elementos, el observador será el único capaz de remar, por lo cual el siempre irá en la barca y elegir a quien llevar. La problematica es que el lobo y caperucita no se pueden quedar juntos porque el lobo la puede comer y tampoco se puede quedar caperucita con las uvas porque ella las puede comer.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="31" y="410" width="690" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

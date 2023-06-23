@@ -1,0 +1,64 @@
+<mxfile host="65bd71144e">
+    <diagram name="Página-1" id="4QvCZCCntAO1TV1ZIVYA">
+        <mxGraphModel dx="746" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="xPziyNtESEGh3sTxUE_A-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xPziyNtESEGh3sTxUE_A-5" target="xPziyNtESEGh3sTxUE_A-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="xPziyNtESEGh3sTxUE_A-5" value="Llevar a&amp;nbsp;&lt;br&gt;caperucita y cruzar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="xPziyNtESEGh3sTxUE_A-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xPziyNtESEGh3sTxUE_A-6" target="xPziyNtESEGh3sTxUE_A-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="xPziyNtESEGh3sTxUE_A-6" value="Estado inicial" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="xPziyNtESEGh3sTxUE_A-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xPziyNtESEGh3sTxUE_A-7" target="xPziyNtESEGh3sTxUE_A-8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="xPziyNtESEGh3sTxUE_A-7" value="Dejar a caperucita y cruzar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="300" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="xPziyNtESEGh3sTxUE_A-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xPziyNtESEGh3sTxUE_A-8" target="xPziyNtESEGh3sTxUE_A-9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="xPziyNtESEGh3sTxUE_A-8" value="Llevar las uvas y cruzar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="390" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="xPziyNtESEGh3sTxUE_A-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xPziyNtESEGh3sTxUE_A-9" target="xPziyNtESEGh3sTxUE_A-10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="xPziyNtESEGh3sTxUE_A-9" value="Dejar las uvas, llevar a caperucita y cruzar&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="xPziyNtESEGh3sTxUE_A-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xPziyNtESEGh3sTxUE_A-10" target="xPziyNtESEGh3sTxUE_A-11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="xPziyNtESEGh3sTxUE_A-10" value="Dejar a caperucita, llevar al lobo y cruzar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="580" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="xPziyNtESEGh3sTxUE_A-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xPziyNtESEGh3sTxUE_A-11" target="xPziyNtESEGh3sTxUE_A-12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="xPziyNtESEGh3sTxUE_A-11" value="Dejar al lobo y cruzar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="680" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="xPziyNtESEGh3sTxUE_A-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xPziyNtESEGh3sTxUE_A-12" target="xPziyNtESEGh3sTxUE_A-14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="xPziyNtESEGh3sTxUE_A-12" value="Llevar a&amp;nbsp; caperucita y cruzar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="780" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="xPziyNtESEGh3sTxUE_A-14" value="Todos del otro lado del rio" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="880" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="SOLUCIÓN CAMINO IDEAL PARA CRUZAR&lt;br&gt;(Resultado esperado en las pruebas unitarias)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="279" y="60" width="270" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,91 @@
+{
+  "todo": [],
+  "in-progress": [],
+  "testing": [],
+  "done": [
+    {
+      "assignedTo": {
+        "name": "Charmander"
+      },
+      "category": "Planificación",
+      "creation_time": "2023-06-21T22:26:44.631Z",
+      "description": {
+        "content": "Elaboración del WorkFlow",
+        "mime": "text/markdown"
+      },
+      "id": "5",
+      "references": [],
+      "title": "Tarea01"
+    },
+    {
+      "assignedTo": {
+        "name": "Barbol-Charmander"
+      },
+      "category": "Planificación",
+      "creation_time": "2023-06-16T22:41:43.827Z",
+      "description": {
+        "content": "Obtención de historias de usuario",
+        "mime": "text/markdown"
+      },
+      "id": "2",
+      "references": [],
+      "title": "Tarea02"
+    },
+    {
+      "assignedTo": {
+        "name": "Charmander"
+      },
+      "category": "Iteración1",
+      "creation_time": "2023-06-21T22:34:07.951Z",
+      "description": {
+        "content": "Planificación",
+        "mime": "text/markdown"
+      },
+      "id": "7",
+      "references": [],
+      "title": "Tarea03"
+    },
+    {
+      "assignedTo": {
+        "name": "Charmander"
+      },
+      "category": "Planificación",
+      "creation_time": "2023-06-21T22:31:02.969Z",
+      "description": {
+        "content": "Metafora\n",
+        "mime": "text/markdown"
+      },
+      "id": "6",
+      "references": [],
+      "title": "Tarea04"
+    },
+    {
+      "assignedTo": {
+        "name": "Meowth-Infernape"
+      },
+      "category": "Diseño",
+      "creation_time": "2023-06-16T22:42:34.450Z",
+      "description": {
+        "content": "Diagramas de Flujo",
+        "mime": "text/markdown"
+      },
+      "id": "3",
+      "references": [],
+      "title": "Tarea05"
+    },
+    {
+      "assignedTo": {
+        "name": "Meowth-Infernape"
+      },
+      "category": "Diseño",
+      "creation_time": "2023-06-21T22:35:21.533Z",
+      "description": {
+        "content": "Prototipo",
+        "mime": "text/markdown"
+      },
+      "id": "8",
+      "references": [],
+      "title": "Tarea06"
+    }
+  ]
+}

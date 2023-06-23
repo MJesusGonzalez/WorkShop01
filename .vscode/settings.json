@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "Juego",
+        "03_Codificación/Juego",
+        "03_Codificación"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}

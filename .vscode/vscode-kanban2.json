@@ -1,0 +1,50 @@
+{
+  "todo": [
+    {
+      "assignedTo": {
+        "name": "Barbol"
+      },
+      "category": "Pruebas",
+      "creation_time": "2023-06-21T22:45:25.823Z",
+      "description": {
+        "content": "Ejecución de pruebas de aceptación",
+        "mime": "text/markdown"
+      },
+      "id": "7",
+      "references": [],
+      "title": "PruebasDeAceptación01"
+    },
+    {
+      "assignedTo": {
+        "name": "Vulpix"
+      },
+      "category": "Pruebas",
+      "creation_time": "2023-06-16T22:46:23.176Z",
+      "description": {
+        "content": "Ejecucion de la prueba unitaria",
+        "mime": "text/markdown"
+      },
+      "id": "5",
+      "references": [],
+      "title": "PruebaUnitaria01"
+    }
+  ],
+  "in-progress": [
+    {
+      "assignedTo": {
+        "name": "Meowth-Infernape"
+      },
+      "category": "Codificación",
+      "creation_time": "2023-06-16T22:47:32.250Z",
+      "description": {
+        "content": "Desarrollo del programa",
+        "mime": "text/markdown"
+      },
+      "id": "6",
+      "references": [],
+      "title": "Tarea01"
+    }
+  ],
+  "testing": [],
+  "done": []
+}
