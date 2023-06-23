@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Hp4dVfdLVx2DITK1ITba" name="Página-1">
-        <mxGraphModel dx="1220" dy="1662" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="505" dy="707" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -18,19 +18,19 @@
                 <mxCell id="63" style="edgeStyle=none;html=1;strokeColor=default;strokeWidth=1;endArrow=classic;endFill=1;" parent="15" source="59" target="60" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="59" value="Realización de metáfora" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="15" vertex="1">
+                <mxCell id="59" value="Juego de planificación" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="15" vertex="1">
                     <mxGeometry x="480" y="55" width="90" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="60" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.checked_doc;" parent="15" vertex="1">
                     <mxGeometry x="630" y="59.20000000000001" width="30.8" height="40.8" as="geometry"/>
                 </mxCell>
-                <mxCell id="61" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ul&gt;&lt;li&gt;Metáfora&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="15" vertex="1">
-                    <mxGeometry x="630" y="49.60000000000001" width="110" height="60" as="geometry"/>
+                <mxCell id="61" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Plan de iteración&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="15" vertex="1">
+                    <mxGeometry x="634" y="49.80000000000001" width="147" height="56" as="geometry"/>
                 </mxCell>
                 <mxCell id="190" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="15" source="186" target="189" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="186" value="Juego de planificación" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="15" vertex="1">
+                <mxCell id="186" value="Realización de metáfora" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="15" vertex="1">
                     <mxGeometry x="200" y="60.00000000000002" width="90" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="191" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="15" source="189" target="59" edge="1">
@@ -44,8 +44,8 @@
                 <mxCell id="189" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.checked_doc;" parent="15" vertex="1">
                     <mxGeometry x="330" y="65.00000000000003" width="30.8" height="40.8" as="geometry"/>
                 </mxCell>
-                <mxCell id="188" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Plan de iteración&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="15" vertex="1">
-                    <mxGeometry x="320" y="49.999999999999986" width="150" height="60" as="geometry"/>
+                <mxCell id="188" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Metáfora&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="15" vertex="1">
+                    <mxGeometry x="343" y="51.999999999999986" width="105" height="56" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="Diseño" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;fillColor=none;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" parent="3" vertex="1">
                     <mxGeometry x="980" width="580" height="150" as="geometry">
@@ -154,16 +154,16 @@
                         <mxRectangle width="438" height="133" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="195" value="Programar" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="13">
+                <mxCell id="195" value="Programar" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="13" vertex="1">
                     <mxGeometry x="165" y="33.15" width="110" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="196" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.checked_doc;" vertex="1" parent="13">
+                <mxCell id="196" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.checked_doc;" parent="13" vertex="1">
                     <mxGeometry x="315" y="35.700000000000024" width="40" height="44.3" as="geometry"/>
                 </mxCell>
-                <mxCell id="197" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ul&gt;&lt;li&gt;Código&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;spacing=2;" vertex="1" parent="13">
+                <mxCell id="197" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ul&gt;&lt;li&gt;Código&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;spacing=2;" parent="13" vertex="1">
                     <mxGeometry x="331" y="27.85" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="199" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="13" source="195" target="196">
+                <mxCell id="199" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="13" source="195" target="196" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" parent="11" vertex="1">
@@ -259,7 +259,7 @@
                         <mxRectangle width="620" height="133" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="205" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="27" source="113" target="114">
+                <mxCell id="205" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="27" source="113" target="114" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="113" value="Realizar Pruebas&lt;br&gt;De Aceptación" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="27" vertex="1">
@@ -297,17 +297,17 @@
                         <mxPoint x="1620" y="500" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="200" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="2" source="97" target="195">
+                <mxCell id="200" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="2" source="97" target="195" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="202" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2" source="196" target="101">
+                <mxCell id="202" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="2" source="196" target="101" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1895" y="507"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="203" style="edgeStyle=none;html=1;" edge="1" parent="2" source="104" target="113">
+                <mxCell id="203" style="edgeStyle=none;html=1;" parent="2" source="104" target="113" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>

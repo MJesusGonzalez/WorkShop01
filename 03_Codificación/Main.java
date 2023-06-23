@@ -47,23 +47,20 @@ public class Main {
     }
     // verifica los casos posibles, en la derecha e izquierda, comparando los arreglos de casos con lo de los lados
     public static void verificarReglas() {
-        int caso1[] = { 0, 1, 1, 1 };
-        int caso2[] = { 0, 1, 0, 1 };
-        int caso3[] = { 0, 1, 1, 0 };
-        int caso4[] = { 1, 1, 1, 1 };
-        if (Arrays.equals(ladoIzq, caso1) || Arrays.equals(ladoDer, caso1)) {
+        int casos[][] = {{ 0, 1, 1, 1 },{ 0, 1, 0, 1 },{ 0, 1, 1, 0 },{ 1, 1, 1, 1 }};
+        if (Arrays.equals(ladoIzq, casos[0]) || Arrays.equals(ladoDer, casos[0])) {
             System.out.println("el lobo se comio a caperusita || caperusita se comio a las uvas\nHAZ PERDIDO\n");
             System.exit(0);
         }
-        if (Arrays.equals(ladoIzq, caso2) || Arrays.equals(ladoDer, caso2)) {
+        if (Arrays.equals(ladoIzq, casos[1]) || Arrays.equals(ladoDer, casos[1])) {
             System.out.println("Caperusita se comio a las uvas\nHAZ PERDIDO\n");
             System.exit(0);
         }
-        if (Arrays.equals(ladoIzq, caso3) || Arrays.equals(ladoDer, caso3)) {
+        if (Arrays.equals(ladoIzq, casos[2]) || Arrays.equals(ladoDer, casos[2])) {
             System.out.println("el lobo se comio a caperusita\nHAZ PERDIDO\n");
             System.exit(0);
         }        
-        if (Arrays.equals(ladoDer, caso4)) {
+        if (Arrays.equals(ladoDer, casos[3])) {
             imprimir();
             System.out.println("Gano!!!!");
             System.exit(0);
@@ -78,8 +75,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Bienvenido");
         System.out.println("Recuerde que el caballero siempre está en el bote y solo puede llevar a alguien desde su posición");
-        do {
-            navegar();
-        } while (true);
+        while (true)
+        navegar();
     }
 }
