@@ -1,10 +1,13 @@
 import java.util.*;
+
 public class Main {
     static int ladoIzq[] = { 1, 1, 1, 1 };
     static int ladoDer[] = { 0, 0, 0, 0 };
     static String personajes[] = { "caballero ", "caperucita", "lobo      ", "uvas      " };
     static String vacio[]={"          ","          ","          ","          "};
-    public static int eleccionPersonajes() {// metodo para ingresar un numero
+
+    // Función para ingresar un numero en la consola
+    public static int eleccionPersonajes() {
         Scanner sc = new Scanner(System.in);
         int opc = -1;
         System.out.println("");
@@ -20,7 +23,9 @@ public class Main {
         } while (opc < 0 || opc > 3);
         return opc;
     }
-    public static void navegar() { // metodo para navegar en el bote con el caballero
+    
+    // Función que permite navegar en el bote con el caballero
+    public static void navegar() { 
         int indice = eleccionPersonajes();
         if (ladoDer[indice] == 1 ) {
             if(indice==0){
@@ -45,37 +50,37 @@ public class Main {
         }
         imprimir();
     }
-    // verifica los casos posibles, en la derecha e izquierda, comparando los arreglos de casos con lo de los lados
+    
+    // Función que verifica los casos posibles, en la derecha e izquierda, comparando los arreglos de casos con lo de los lados
     public static void verificarReglas() {
         int casos[][] = {{ 0, 1, 1, 1 },{ 0, 1, 0, 1 },{ 0, 1, 1, 0 },{ 1, 1, 1, 1 }};
-        if (Arrays.equals(ladoIzq, casos[0]) || Arrays.equals(ladoDer, casos[0])) {
-            System.out.println("el lobo se comio a caperusita || caperusita se comio a las uvas\nHAZ PERDIDO\n");
-            System.exit(0);
-        }
-        if (Arrays.equals(ladoIzq, casos[1]) || Arrays.equals(ladoDer, casos[1])) {
-            System.out.println("Caperusita se comio a las uvas\nHAZ PERDIDO\n");
-            System.exit(0);
-        }
-        if (Arrays.equals(ladoIzq, casos[2]) || Arrays.equals(ladoDer, casos[2])) {
-            System.out.println("el lobo se comio a caperusita\nHAZ PERDIDO\n");
-            System.exit(0);
-        }        
+        for (int i = 0; i < 3; i++) {
+            if (Arrays.equals(ladoIzq, casos[i]) || Arrays.equals(ladoDer, casos[i])) {
+                System.out.println((i==0)?"el lobo se comio a caperusita || caperusita se comio a las uvas\nHAZ PERDIDO\n":(i==1)?"Caperusita se comio a las uvas\nHAZ PERDIDO\n":"el lobo se comio a caperusita\nHAZ PERDIDO\n");
+                System.exit(0);
+            }
+        }    
         if (Arrays.equals(ladoDer, casos[3])) {
             imprimir();
             System.out.println("Gano!!!!");
             System.exit(0);
         }        
     }
+
+    //Funcion que imprimir en consola la iteraccion de los personajes al cruzar de un lado al 
     public static void imprimir() {
+        System.out.print("\033[H\033[2J");
         System.out.println("");
         for (int i = 0; i < ladoIzq.length; i++) 
-            System.out.println(((ladoIzq[i]==1)? personajes[i]:vacio[i]) + "|" + ((ladoDer[i]==1)? personajes[i]:vacio[i]));
+            System.out.println(((ladoIzq[i]==1)? personajes[i]:vacio[i]) +" |~~~~~| "+ ((ladoDer[i]==1)? personajes[i]:vacio[i]));
         System.out.println("");
     }
+    
+    //Función de ejecución
     public static void main(String[] args) {
         System.out.println("Bienvenido");
         System.out.println("Recuerde que el caballero siempre está en el bote y solo puede llevar a alguien desde su posición");
         while (true)
-        navegar();
+            navegar();
     }
 }
